@@ -1,9 +1,14 @@
 import decimal
+from typing import Mapping, TypeAlias
 
 from constants import ___
 
+TrId: TypeAlias = int
+TrAmount: TypeAlias = decimal.Decimal
 
-def get_transaction_amount(transaction_id: ___, transactions_amounts_map: ___) -> ___:
+
+def get_transaction_amount(transaction_id: TrId,
+                           transactions_amounts_map: Mapping[TrId, TrAmount]) -> ___:
     pass
 
 

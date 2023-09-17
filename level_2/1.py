@@ -1,7 +1,11 @@
+from typing import TypeAlias
+
 from constants import ___
 
+Rate: TypeAlias = float
 
-def get_avg_currency_rate(rates_history: ___) -> ___:
+
+def get_avg_currency_rate(rates_history: list[Rate]) -> Rate:
     pass
 
 

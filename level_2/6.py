@@ -1,7 +1,11 @@
+from typing import Mapping, TypeAlias
+
 from constants import ___
 
+Name: TypeAlias = str
 
-def is_name_male(name: ___, name_gender_map: ___) -> ___:
+
+def is_name_male(name: Name, name_gender_map: Mapping[Name, bool]) -> bool | None:
     pass
 
 

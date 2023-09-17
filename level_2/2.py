@@ -1,7 +1,11 @@
+from typing import TypeAlias
+
 from constants import ___
 
+Code: TypeAlias = str
 
-def is_recovery_code_correct(code: ___, user_codes: ___) -> ___:
+
+def is_recovery_code_correct(code: Code, user_codes: list[Code]) -> bool:
     pass
 
 

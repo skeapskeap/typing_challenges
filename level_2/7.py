@@ -1,7 +1,14 @@
+from typing import TypeAlias
+
 from constants import ___
 
 
-def calculate_total_spent_for_user(user: ___) -> ___:
+Name: TypeAlias = str
+Age: TypeAlias = int
+Payments: TypeAlias = list[int]
+
+
+def calculate_total_spent_for_user(user: tuple[Name, Age, Payments]) -> int:
     pass
 
 
