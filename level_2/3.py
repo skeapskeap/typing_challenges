@@ -8,7 +8,7 @@ TrAmount: TypeAlias = decimal.Decimal
 
 
 def get_transaction_amount(transaction_id: TrId,
-                           transactions_amounts_map: Mapping[TrId, TrAmount]) -> ___:
+                           transactions_amounts_map: Mapping[TrId, TrAmount]) -> TrAmount:
     pass
 
 

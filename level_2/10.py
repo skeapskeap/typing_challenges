@@ -3,9 +3,7 @@ from typing import TypeAlias
 from constants import ___
 
 
-PositionX: TypeAlias = int
-PositionY: TypeAlias = int
-Coordinates2D: TypeAlias = tuple[PositionX, PositionY]
+Coordinates2D: TypeAlias = tuple[int, int]
 
 
 def is_point_in_square(point: Coordinates2D,
