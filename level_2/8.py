@@ -1,7 +1,16 @@
+from typing import Mapping, TypeAlias
+
 from constants import ___
 
+Name: TypeAlias = str
+Age: TypeAlias = int
+Payments: TypeAlias = list[int]
+User: TypeAlias = tuple[Name, Age, Payments]
 
-def calculate_total_spent_for_users(users_ids: ___, users_ids_to_users_map: ___) -> ___:
+
+def calculate_total_spent_for_users(users_ids: set[int],
+                                    users_ids_to_users_map: Mapping[int, User],
+                                    ) -> int:
     pass
 
 

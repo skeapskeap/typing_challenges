@@ -1,7 +1,15 @@
+from typing import NamedTuple
+
 from constants import ___
 
 
-def get_current_user() -> ___:
+class User(NamedTuple):
+    full_name: str
+    age: int
+    email: str
+
+
+def get_current_user() -> User:
     pass
 
 

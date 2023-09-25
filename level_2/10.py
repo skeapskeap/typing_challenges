@@ -1,7 +1,14 @@
+from typing import TypeAlias
+
 from constants import ___
 
 
-def is_point_in_square(point: ___, left_upper_corner: ___, right_bottom_corner: ___) -> ___:
+Coordinates2D: TypeAlias = tuple[int, int]
+
+
+def is_point_in_square(point: Coordinates2D,
+                       left_upper_corner: Coordinates2D,
+                       right_bottom_corner: Coordinates2D) -> bool:
     pass
 
 
